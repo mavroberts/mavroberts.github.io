@@ -1,0 +1,90 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+
+html, body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #000 url("bg.jpg") no-repeat center top;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+#wrap {
+	width: 1000px;
+	margin: 0 auto;
+}
+header {
+	clear: both;
+	text-align:center;
+}
+#logo {
+	padding: 10px;
+}
+nav {
+	padding: 10px;
+}
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+nav li {
+	display: inline;
+	margin: 0 30px;
+}
+nav a {
+	color: #133450;
+	font-size:30px;
+	text-decoration:none;
+	font-weight: bold;
+	font-family: 'Permanent Marker', cursive;
+}
+nav a:hover {
+	color: white;
+}
+section {
+	background-color:rgba(0,0,0,0.3);
+	overflow: auto;
+	padding: 10px;
+	z-index: -100;
+}
+
+h1 { 
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 72px;
+	margin: 0 0 0 35px;}
+h2 {
+	color: #8CF0EF;
+	font-family:Georgia, serif;
+	font-size: 25px;
+	margin: 0 0 0 35px;
+}
+
+figure {
+	border: 1px solid white;
+	background-color:black;
+	float: left;
+	padding: 10px;
+	overflow: auto;
+	margin: 25px;
+}
+
+figcaption {
+	text-align: center;
+	color: white;
+	font-size: 90%;
+}`
+.welcome {
+	
+	margin: 10px 0;
+	overflow: auto;
+}
+footer {
+	background-color: transparent;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	clear: both;
+}
+footer a {
+	color: #8CF0EF;
+}
