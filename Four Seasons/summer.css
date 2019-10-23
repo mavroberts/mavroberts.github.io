@@ -1,0 +1,97 @@
+html, body { 
+	margin: 0;
+	padding: 0;
+}
+<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+#wrap {
+		margin: 0 auto;
+		width: 70%;
+}
+
+section {
+	padding:10px;
+	z-index: -10;
+}
+
+figure {
+	width: 300px;
+	background-color: #000;
+}
+figure img {
+	width: 100%;
+}
+body {
+	background-color:#200cb3;
+	font-family:Georgia;
+	background-image: url(bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0;
+	padding:0;
+	
+}
+
+#wrap {
+		width: 80%;
+		border: 1px solid red;
+		margin: 0 auto;
+		} 
+header img {width: 90%;
+			height: 550px;
+		}
+
+header { 
+	background-color: white;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	}
+
+nav {
+	background-color:#d10618 ;
+     padding: 20px;
+	 text-align: center;}
+
+nav li{
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav a {
+	color:white;
+	padding: 20px;
+	margin-right: 10px;
+	font-family: Verdana;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:blue;
+	text-decoration: underline;
+}
+section {background-color: white;
+	padding: 30px;
+	overflow: auto;
+	font-size: 25px;}
+.beach {
+	height: 450px;
+	width: 50%;
+}
+.baseball {
+	height: 450px;
+	width: 49%;
+}
+h1{
+	color:#26de32; 
+	font-size: 30px;
+}
+
+footer {background-color:#ed0735;
+		padding: 10px;
+		text-align: center;
+		color: white;}

@@ -1,0 +1,101 @@
+html, body { 
+	margin: 0;
+	padding: 0;
+}
+<link href="https://fonts.googleapis.com/css?family=Fascinate+Inline&display=swap" rel="stylesheet">
+
+#wrap {
+		margin: 0 auto;
+		width: 70%;
+}
+
+section {
+	padding:10px;
+	z-index: -10;
+}
+
+figure {
+	width: 300px;
+	background-color: #000;
+}
+figure img {
+	width: 100%;
+}
+body {
+	background-color:black;
+	font-family:Georgia;
+	background-image: url(bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0;
+	padding:0;
+	
+}
+
+#wrap {
+		width: 80%;
+		border: 1px solid red;
+		margin: 0 auto;
+		} 
+header img {width: 100%;
+		}
+
+header { 
+	background-color: #cccccc;
+	text-align: center;
+	font-family: 'Bangers', cursive;
+	font-size: 80px;
+	padding: 30px;
+	
+	}
+
+nav {
+	background-color: orange;
+     padding: 20px;
+	 text-align: center;}
+
+nav li{
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav a {
+	color:yellow;
+	padding: 20px;
+	margin-right: 10px;
+	font-family: Verdana;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color:yellow;
+	text-decoration: underline;
+}
+section {background-color: #fdff78;
+	padding: 30px;
+	overflow: auto;
+	font-size: 25px;
+	padding: 30px;}
+	
+.pumpkin { 
+	width: 50%;
+	float: right;}
+	
+.football {
+	width: 575px;
+	height: 290px;
+	float: center;
+}
+h1{
+	color:#26de32; 
+	font-size: 30px;
+}
+
+footer {background-color:#ed0735;
+		padding: 10px;
+		text-align: center;
+		color: white;}
