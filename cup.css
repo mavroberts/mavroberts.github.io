@@ -1,0 +1,89 @@
+html, body { 
+	margin: 0;
+	padding: 0;
+	background-color: #bab9b6;
+}
+
+#wrap {
+		margin: 0 auto;
+		width: 70%;
+}
+
+header{
+	margin: 0 auto;
+}
+header img{
+	margin: 0 auto;
+	width:100%;
+}
+nav li{
+	display: inline;
+	margin: 35px;
+	font-size: 20px;
+}
+
+nav.topnav{
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	background-color: #2bccb7;
+	width: 68.5%;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav a{ 
+color:white;
+text-decoration: none;
+}
+
+
+section{
+	overflow: auto;
+	background-color: red;
+	width:70%;
+	margin: 0 auto;
+	
+}
+
+.cupcake{
+	float:right;
+	width: 40%;
+
+}
+
+#main{
+	width: 68%;
+	float: right;
+	background-color: white;
+}
+#side{
+	color: white;
+	text-decoration: none;
+	width: 25%;
+}
+
+a {
+	color:white;
+	text-decoration: none;
+	font-size: 120%;
+	overflow:auto;
+}
+
+h1{font-size: 39px;}
+
+
+footer {
+	background-color:#2bccb7;
+text-align: center;
+padding: 0;
+margin: 0 auto;
+width: 70%;}
+
+
+
+
+
+
+
