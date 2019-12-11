@@ -1,0 +1,95 @@
+body {
+	background: rgb(207,211,20);
+background: linear-gradient(38deg, rgba(207,211,20,1) 48%, rgba(189,9,173,0.9139005944174545) 50%);
+	font-family:Georgia;
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0;
+	padding:0;
+	
+}
+
+#wrap {
+		width: 80%;
+		margin: 0 auto;
+		} 
+header img {width: 100%;
+			height: 400px;
+			margin: 20px 0 0px 0;
+		}
+
+header { 
+	background: rgb(207,211,20);
+background: linear-gradient(38deg, rgba(207,211,20,1) 48%, rgba(189,9,173,0.9139005944174545) 50%);
+	text-align: center
+	
+	}
+
+nav {
+	background: rgb(207,211,20);
+background: linear-gradient(38deg, rgba(207,211,20,1) 48%, rgba(189,9,173,0.9139005944174545) 50%);
+     padding: 20px;
+	 text-align: center;
+	 }
+
+nav li{
+	display: inline;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+}
+nav a {
+	color:white;
+	padding: 20px;
+	margin-right: 10px;
+	font-family: Verdana;
+	font-size: 20px;
+	text-decoration: underline;
+}
+nav a:hover{
+	color: yellow;
+	
+}
+
+#main{
+	width: 68%;
+	float: right;
+	background-color: lightblue;
+	padding: 1%;
+	color: white;
+}
+section {
+	overflow:auto; 
+	background-color: white;
+	padding: 30px;
+	overflow: auto;
+	}
+h1{
+	color:#26de32; 
+	font-size: 30px;
+}
+
+div.box {
+	width: 200px;
+	height: 200px;
+	background-color:orange;
+	border: 10px solid black;
+	padding: 10px;
+	margin: 10px;
+}
+
+footer {background-color:#ed0735;
+		padding: 10px;
+		text-align: center;
+		color: white;}
+
+.officer { 
+	width: 35%;
+	height: 35%;
+	float: right;
+	position: relative;
+	bottom: 70px;
+	left: 0px;
+	} 
